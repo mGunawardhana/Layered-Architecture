@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RemoveItemsController">
+   <children>
+      <ImageView fitHeight="562.0" fitWidth="761.0" layoutX="119.0" layoutY="19.0" opacity="0.45" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/35993-min.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtItemCode" layoutX="88.0" layoutY="141.0" onAction="#SearchCustomerOnAction" prefHeight="50.0" prefWidth="290.0" promptText="Item Code">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtDescription" layoutX="423.0" layoutY="141.0" prefHeight="50.0" prefWidth="290.0" promptText="Description">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtPackSize" layoutX="88.0" layoutY="217.0" prefHeight="50.0" prefWidth="290.0" promptText="Pack Size">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtUnitPrice" layoutX="423.0" layoutY="217.0" prefHeight="50.0" prefWidth="290.0" promptText="Unit Price">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtQuantityOnHand" layoutX="88.0" layoutY="291.0" prefHeight="50.0" prefWidth="290.0" promptText="Quantity On Hand">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnAddItem" layoutX="423.0" layoutY="461.0" mnemonicParsing="false" onAction="#RemoveItemOnAction" prefHeight="38.0" prefWidth="114.0" style="-fx-background-color: #0be881;" text="Remove Item" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnCancel" layoutX="264.0" layoutY="461.0" mnemonicParsing="false" onAction="#BackOnAction" prefHeight="38.0" prefWidth="114.0" style="-fx-background-color: #ff5e57;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="txtDiscount" layoutX="423.0" layoutY="291.0" prefHeight="50.0" prefWidth="290.0" promptText="Discount">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

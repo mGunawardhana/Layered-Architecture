@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CashierFormController">
+   <children>
+      <Button alignment="CENTER" layoutX="254.0" layoutY="93.0" mnemonicParsing="false" onAction="#addNewCustomerOnAction" prefHeight="53.0" prefWidth="293.0" style="-fx-background-color: #019875;" text="Add new Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="254.0" layoutY="174.0" mnemonicParsing="false" onAction="#manageOrdersOnAction" prefHeight="53.0" prefWidth="293.0" style="-fx-background-color: #019875;" text="Manage Orders" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="backBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backBtnOnAction" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: #C4E538;" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="287.0" fitWidth="688.0" layoutX="11.0" layoutY="299.0" pickOnBounds="true">
+         <image>
+            <Image url="@assets/4Z_2101.w020.n001.1001B.p15.1001-min.jpg" />
+         </image>
+      </ImageView>
+      <Separator layoutX="355.0" layoutY="276.0" prefHeight="0.0" prefWidth="367.0" style="-fx-border-color: #C4E538;" />
+      <Separator layoutX="713.0" layoutY="278.0" orientation="VERTICAL" prefHeight="143.0" prefWidth="1.0" style="-fx-border-color: #C4E538;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" stylesheets="@styles/Style3.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LogInFormController">
+   <children>
+      <ImageView fitHeight="247.0" fitWidth="405.0" layoutX="373.0" layoutY="318.0" pickOnBounds="true">
+         <image>
+            <Image url="@assets/179-min.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="288.0" fitWidth="420.0" layoutX="12.0" layoutY="21.0" pickOnBounds="true">
+         <image>
+            <Image url="@assets/180-min.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtUsername" layoutX="462.0" layoutY="127.0" prefHeight="45.0" prefWidth="288.0" promptText="Username" />
+      <PasswordField fx:id="txtPassword" layoutX="462.0" layoutY="182.0" prefHeight="45.0" prefWidth="288.0" promptText="Password" />
+      <Button fx:id="btnLogin" alignment="CENTER" layoutX="547.0" layoutY="247.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: #70a1ff;" text="login" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Separator layoutX="15.0" layoutY="326.0" prefHeight="3.0" prefWidth="342.0" />
+      <Separator layoutX="356.0" layoutY="326.0" orientation="VERTICAL" prefHeight="254.0" prefWidth="5.0" />
+      <Separator layoutX="359.0" layoutY="578.0" prefHeight="3.0" prefWidth="428.0" />
+      <Separator layoutX="447.0" layoutY="20.0" prefHeight="3.0" prefWidth="332.0" />
+      <Separator layoutX="777.0" layoutY="21.0" orientation="VERTICAL" prefHeight="276.0" prefWidth="0.0" />
+      <Separator layoutX="14.0" layoutY="327.0" orientation="VERTICAL" prefHeight="200.0" />
+      <ImageView fitHeight="247.0" fitWidth="288.0" layoutX="42.0" layoutY="330.0" pickOnBounds="true">
+         <image>
+            <Image url="@assets/43814.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="567.0" layoutY="23.0" pickOnBounds="true">
+         <image>
+            <Image url="@assets/icons8-username-96.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="503.0" layoutY="580.0" stylesheets="@styles/Style3.css" text="Developped By mrGunawardhana Software Solutions">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

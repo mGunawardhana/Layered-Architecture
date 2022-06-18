@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="JavaFXApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaFXApp</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="JavaFXApp.jar">
+        <element id="module-output" name="SuperMarket" />
+      </element>
+      <element id="file-copy" path="F:/JavaFx/Hotel Project/HotelBL/lib/jfoenix-8.0.8.jar" />
+    </root>
+  </artifact>
+</component>
